@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jason Ye's Portfolio</title>
+<!--
+Neaty HTML Template
+http://www.templatemo.com/tm-501-neaty
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="../../css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="../../css/templatemo-style.css">                                   <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+    <body>        
+        <div class="container">
+            <div class="row">
+                <div class="tm-left-right-container">
+                    <!-- Left column: logo and menu -->
+                    <div class="tm-blue-bg tm-left-column">                        
+                        <div class="tm-logo-div text-xs-center">
+                            <img src="../../img/tm-neaty-logo.png" alt="Logo">
+                            <h1 class="tm-site-name">Portfolio</h1>
+                        </div>
+                        <nav class="tm-main-nav">
+                                <ul class="tm-main-nav-ul">
+                                
+                                    <li class="tm-nav-item">
+                                        <a href="https://www.linkedin.com/in/jason-ye-a0a64471/" >LinkedIn</a>
+                                    </li>
+                                    <li class="tm-nav-item">
+                                        <a href="https://public.tableau.com/profile/jason1438#!/" class="tm-nav-item-link">Tableau</a>
+                                    </li>
+                                    <li class="tm-nav-item">
+                                        <a href="#contact" class="tm-nav-item-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>                                       
+                    </div> <!-- Left column: logo and menu -->
+                    
+                    <!-- Right column: content -->
+                    <div class="tm-right-column">
+                        <div class="tm-content-div">
+                           
+                            <!-- Report section -->
+                            <section id="about" class="tm-section tm-section-bg">
+                                <div class="row">                                                                
+                                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 push-lg-41 push-md-5">
+                                        <header>
+                                            <h2 class="tm-blue-text tm-section-title tm-margin-b-45">Video Games Cause Gun Deaths in The US?</h2>
+                                        </header>
+                                        <p class="p-width">
+                                            Apparently, video games are to blame for gun violent and death according to <a href="https://twitter.com/realdonaldtrump/status/280812064539283457?lang=en">
+                                            President Trump</a>. As a gamer myself for many years, I am surprised to hear that. Are video games really related to gun death in America? If so, which game 
+                                            publisher is to blame? With recent available reports and datasets from online sources, I can prove that President Trump is either right or wrong.
+                                        </p>
+                                        <p class="p-width"><cite>Objective</cite></p>
+                                        <p class="p-width">
+                                            To find out the correlation between video game sale revenue and death count by gun in the US.
+                                        </p>
+                                        <p><cite>Datasets</cite></p>
+                                        <p class="p-width">
+                                            Video game sales as of January 2017 by Zachery Hill and Mass shooting occurring in the US from 2000 – 2016 by Christ Awram on data.world. 
+                                            Both spreadsheets are in csv files which contain 10+ columns.  
+                                        </p>
+                                        <p><cite>Strategy</cite></p>
+                                        <p class="p-width">
+                                            At least three worksheets and one dashboard for visualization.   
+
+                                            For the colors, I have chosen a different color for individual publisher.  
+                                                
+                                            For the graphs, I have chosen bar graph, line graph, and treemap chart.
+                                        </p>
+                                        <p><cite>Data Cleaning & Modeling</cite></p>
+                                        <p class="p-width">
+                                            The datasets were clean and straightforward. I had to omit a few columns such as case, 
+                                            shooting type, summary, illness in the Mass shooting occurring in the US file, in order to keep the 
+                                            necessary information such as the number of death and year.  
+                                        </p>
+                                        <p class="p-width">
+                                            I did an inner join intersection with the two files using the foreign key “year”, because I wanted to combine data or rows from their tables based on a common field.
+                                        </p>
+                                        
+                                        <p><cite>Dashboard</cite></p>
+                                        <figure>
+                                            <a href="https://public.tableau.com/views/AreVideoGamesReallyRelatedtoGunDeathsinUS/Dashboard1?:retry=yes&:embed=y&:display_count=yes&:origin=viz_share_link">
+                                                <img src="../../img/img3.png" alt="Dashboard" class="img-project">
+                                            </a>
+                                    
+                                            
+                                        </figure>
+                                        <p><cite>Conclusion</cite></p>
+                                        <p class="p-width">
+                                            My primary focus is comparing datasets in the US. Based on what I have found, gaming does correlate with gun violent. 
+                                            Over the course of years, more death happens when video game sale rises. In addition, I am curious about which game company
+                                            has the most revenue in the past years. Expectedly, action, shooting, and sport is the most popular genre. Activision have had a total 
+                                            of $853 million sale revenue in action and shooter genre. Having its most popular gaming title, Call-of-Duty, it is safe to say 
+                                            that Activision could be the major issue of gun violence.  
+                                        </p>
+                                        <p class="p-width">
+                                            As much as I hate to admit it, but President Trump does have a point and may be right about video games being a major issue for gun deaths. Even though President Trump is correct at a certain degree, there is no proven connection between massing shooting and video games. The data above only shows North America.
+                                        </p>
+                                    </div>
+                                </div>                            
+                            </section>  
+                            
+                            
+                           
+                             
+                        </div>  
+                        
+                    </div> <!-- Right column: content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <footer class="footer-section">
+                <p class="tm-copyright-p"style="text-align:center;">&copy; <span class="tm-current-year">2019</span>
+                    
+                | Jason Ye</p>
+        </footer> 
+        <!-- load JS files
+        <script src="../../js/jquery-1.11.3.min.js"></script>             jQuery (https://jquery.com/download/)
+        <script src="../../js/jquery.magnific-popup.min.js"></script>     Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/)
+        <script src="../../js/jquery.singlePageNav.min.js"></script>      Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script>     
+       
+            $(document).ready(function(){
+
+                // Single page nav
+                $('.tm-main-nav').singlePageNav({
+                    'currentClass' : "active",
+                    offset : 20
+                });
+
+                // Magnific pop up
+                $('.tm-gallery-1').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-gallery-2').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-gallery-3').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-current-year').text(new Date().getFullYear());                
+            });
+        </script>             
+</body>
+</html>

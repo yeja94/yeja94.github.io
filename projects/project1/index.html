@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jason Ye's Portfolio</title>
+<!--
+Neaty HTML Template
+http://www.templatemo.com/tm-501-neaty
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="../../css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="../../css/templatemo-style.css">                                   <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+    <body>        
+        <div class="container">
+            <div class="row">
+                <div class="tm-left-right-container">
+                    <!-- Left column: logo and menu -->
+                    <div class="tm-blue-bg tm-left-column">                        
+                        <div class="tm-logo-div text-xs-center">
+                            <img src="../../img/tm-neaty-logo.png" alt="Logo">
+                            <h1 class="tm-site-name">Portfolio</h1>
+                        </div>
+                        <nav class="tm-main-nav">
+                                <ul class="tm-main-nav-ul">
+                                
+                                    <li class="tm-nav-item">
+                                        <a href="https://www.linkedin.com/in/jason-ye-a0a64471/" >LinkedIn</a>
+                                    </li>
+                                    <li class="tm-nav-item">
+                                        <a href="https://public.tableau.com/profile/jason1438#!/" class="tm-nav-item-link">Tableau</a>
+                                    </li>
+                                    <li class="tm-nav-item">
+                                        <a href="#contact" class="tm-nav-item-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>                                       
+                    </div> <!-- Left column: logo and menu -->
+                    
+                    <!-- Right column: content -->
+                    <div class="tm-right-column">
+                    
+                        
+                    
+                        <div class="tm-content-div">
+                           
+                            <!-- Report section -->
+                            <section id="about" class="tm-section tm-section-bg">
+                                <div class="row">                                                                
+                                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 push-lg-41 push-md-5">
+                                        <header>
+                                            <h2 class="tm-blue-text tm-section-title tm-margin-b-45">Social Platform Shopping by Millennials in 2016</h2>
+                                        </header>
+                                        <p class="p-width"><cite>Objective</cite></p>
+                                        <p class="p-width">
+                                            To find out the correlation between social platform notification badges and online shopping. 
+                                            Two questions were asked for the purpose of this project are:
+                                            <ol>
+                                                <li>
+                                                    You open ur phone and have a notification badge on Instagram, Facebook, Snapchat, and LinkedIn...which do you click first? 
+                                                </li>
+                                                <li>
+                                                    What social platform has influenced your online shopping most? 
+                                                </li>
+                                            </ol>
+                                        </p>
+                                        <p><cite>Datasets</cite></p>
+                                        <p class="p-width">
+                                            Social Influence on Shopping and Which Social Platform Millennials Care about the Most data provided by Adam Halper
+                                            on data.world. The files are in csv format.   
+                                        </p>
+                                        <p><cite>Strategy</cite></p>
+                                        <p class="p-width">Two clean looking dashboards with necessary information were needed for visualization.  
+
+                                            For the colours, I have chosen the same colors based on the original social platforms. 
+                                            This way, the audience could identify each platform easily.  
+                                                
+                                            For the graphs, I have chosen bar graphs, bubbles graphs, and treemap chart. 
+                                            The Y-axis in the bar graph is the count measurements to show the total amount of votes for 
+                                            each item in the X-axis. The size of the bubble in bubble graph and the square in treemap chart 
+                                            represents the number of votes.
+                                        </p>
+                                        <p><cite>Data Cleaning & Modeling</cite></p>
+                                        <p class="p-width">
+                                            The datasets were clean and straightforward so not much cleaning is needed. I did remove the 
+                                            question column to focus the attention on actual data. For table join, I did a union join on 
+                                            all the tables from the two datasets, so Tableau knows how to display all the dimensions and measurements.
+                                        </p>
+                                        
+                                        <p><cite>Dashboard</cite></p>
+                                        <figure>
+                                            <a href="https://public.tableau.com/views/Whichsocialplatformyouclickedonfirstwhenopenphone/WhichSocialPlatformYouClickedOnFirstWhenOpenPhone?:retry=yes&:embed=y&:display_count=yes&:origin=viz_share_link">
+                                                <img src="../../img/img1.png" alt="img1" class="img-project">
+                                            </a>
+                                            <p class="p-width">
+                                                The visualization above illustrates four social platforms based on the dataset. Snapchat is the most 
+                                                frequent opened for millennials based on student votes in each university. Instagram is the second most popular 
+                                                clicked on when seeing notification badges. This mean they are more popular than other platforms. 
+                                            </p>
+                                            <a href="https://public.tableau.com/views/Whatsocialplatformhasinfluencedyouronlineshoppingmost/Whatsocialplatformhasinfluencedyouronlineshoppingmost?:embed=y&:display_count=yes&:origin=viz_share_link">
+                                                <img src="../../img/img2.png" alt="img2" class="img-project">
+                                            </a>
+                                            <p class="p-width">
+                                                The visualization above illustrates four social platforms, replacing LinkedIn with Twitter, and one “none” response. 
+                                                Based on the graph, the majority of millennials that are in university get more influenced by Instagram than other social platforms. 
+                                                Although, there are a lot people who do not get influenced by social media, which is represent in the black color area. 
+                                            </p>
+                                            
+                                        </figure>
+                                        <p><cite>Conclusion</cite></p>
+                                        <p class="p-width">
+                                            
+
+                                            Social media are on the rise and every notification badge count. Having Instagram being the most influential social media 
+                                            and the second most popular social platform when clicking on notification badges, I can predict that Instagram 
+                                            does have a significant impact to online shopping for millennials. Hence, Instagram is our main platform to target for millennials.
+                                            Although Snapchat is the most popular platform based 
+                                            on opening notification badges, it has the least influence on millennials. This may due to improper advertising feature or 
+                                            lack of marketing strategy.  
+                                        </p>
+                                    </div>
+                                </div>                            
+                            </section>  
+                            
+                            
+                           
+                             
+                        </div>  
+                        
+                    </div> <!-- Right column: content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <footer class="footer-section">
+                <p class="tm-copyright-p"style="text-align:center;">&copy; <span class="tm-current-year">2019</span>
+                    
+                | Jason Ye</p>
+        </footer> 
+        <!-- load JS files
+        <script src="../../js/jquery-1.11.3.min.js"></script>             jQuery (https://jquery.com/download/)
+        <script src="../../js/jquery.magnific-popup.min.js"></script>     Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/)
+        <script src="../../js/jquery.singlePageNav.min.js"></script>      Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script>     
+       
+            $(document).ready(function(){
+
+                // Single page nav
+                $('.tm-main-nav').singlePageNav({
+                    'currentClass' : "active",
+                    offset : 20
+                });
+
+                // Magnific pop up
+                $('.tm-gallery-1').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-gallery-2').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-gallery-3').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                }); 
+
+                $('.tm-current-year').text(new Date().getFullYear());                
+            });
+        </script>             
+</body>
+</html>
