@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Jason Ye Portfolio</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="index.html">Home</a>
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="project_3.html">Project 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/jason-ye-a0a64471/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://public.tableau.com/profile/jason1438#!/">Tableau</a>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6-1">
+                    <div class="message-box">                        
+                        <h2>Are Video Games Really The Cause Of Gun Deaths In The United State?</h2>
+                        <p>
+                            Apparently, video games are to blame for gun violent and death according to <a href="https://twitter.com/realdonaldtrump/status/280812064539283457?lang=en">
+                            President Trump</a>. 
+                            As a gamer myself for many years, I could see a potential correlation for the player and game. 
+                            I want to do a small project on this, mainly for my own interest. Are violent video games really causing the death of people in America? 
+                            If so, which game publisher is to blamed? With recent available reports and datasets from online sources, I can prove that President Trump is either right or wrong.
+                        </p>
+                        <h3>Objective</h3>
+                        <p>
+                            To find out the correlation between video game sale revenue and death count by gun in the US.
+                        </p>
+                        <h3>Datasets</h3>
+                        <p>
+                            Video game sales as of January 2017 by Zachery Hill and Mass shooting occurring in the US from 2000 – 2016 
+                            by Christ Awram on data.world. Both spreadsheets are in csv files which contain 10+ columns.                        
+                        </p>
+                        <h3>Strategy</h3>
+                        <p>
+                            At least three worksheets and one dashboard for visualization. For the colors, I have chosen a different color 
+                            for individual publisher. For the graphs, I have chosen bar graph, line graph, and treemap chart.                       
+                        </p>
+                        <h3>Data Cleaning & Modeling</h3>
+                        <p>
+                            The datasets were clean and straightforward. I had to omit a few columns such as case, shooting type, summary, 
+                            illness in the Mass shooting occurring in the US file, in order to keep the necessary information such as the number 
+                            of death and year.
+                        </p>
+                        <p>
+                            I did an inner join intersection with the two files using the foreign key “year”, because I wanted to combine data or 
+                            rows from their tables based on a common field.
+                        </p>
+                        <h3>Dashboard</h3>
+                        <figure>
+                          <div class="col-md-6-1">
+                            <a href="https://public.tableau.com/views/AreVideoGamesReallyRelatedtoGunDeathsinUS/Dashboard1?:display_count=y&:origin=viz_share_link">
+                              <img src="images/img3.png" alt="" class="img-fluid img-rounded">
+                            </a>
+                          </div>
+                        </figure>
+                        <h3>Conclusion</h3>
+                        <p>
+                            My primary focus was to compare datasets in the U.S. Based on what I have found, gaming does correlate with gun violent. 
+                            Over the course of years, more death happens when cerntain video games, gun and fighting, sale rises. In addition, I was 
+                            curious about which game company had the most revenue in the past years. Expectedly, action, shooting, and sport were the most popular genres. 
+                            Activision have had a total of $853 million sale revenue in action and shooter genres. Having its most popular gaming 
+                            title, Call-of-Duty, it is safe to say that Activision could be the major issue of gun violence.
+                        </p>
+                        <p>
+                            As much as I hate to admit it, President Trump does have a point and may be right about video games being a major issue for gun deaths. 
+                            Even though President Trump was correct at a certain degree, there was no solid connection between massing shooting and video games. 
+                            This small study of analysis only shows one country, North America...but what about the rest of the world? 
+                        </p>
+                      </div><!-- end messagebox -->
+                    </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+        
+    </div><!-- end section -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                  <p class="footer-links">
+                    <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/jason-ye-a0a64471/">LinkedIn</a>
+                    <a href="https://github.com/yeja94">GitHub</a>
+                    <a href="https://public.tableau.com/profile/jason1438#!/">Tableau</a>
+                  </p>
+                  <p class="footer-company-name">All Rights Reserved. &copy; 2020 Jason Ye. Design By : 
+                    <a href="https://html.design/">html.design</a>
+                  </p>
+        </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>

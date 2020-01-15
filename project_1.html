@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Jason Ye Portfolio</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="index.html">Home</a>
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="project_2.html">Project 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/jason-ye-a0a64471/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://public.tableau.com/profile/jason1438#!/">Tableau</a>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6-1">
+                    <div class="message-box">                        
+                        <h2>Which Social Platform Influences Millenial Shopping The Most?</h2>
+                        <h3>Objective</h3>
+                        <p>
+                            To find out the correlation between social platform notification badges and online shopping. 
+                            Two questions were asked for the purpose of this project are:
+                            <ul>
+                                <li>
+                                  1. You open your phone and have a notification badge on Instagram, Facebook, Snapchat, and LinkedIn...which do you click first? 
+                                </li>
+                                <li>
+                                  2. What social platform has influenced your online shopping most? 
+                                </li>
+                            </ul>
+                        </p>
+                        <h3>Datasets</h3>
+                        <p>
+                            Social Influence on Shopping and Which Social Platform Millennials Care about the Most data provided by Adam Halper
+                            on data.world. The files are in csv format.   
+                        </p>
+                        <h3>Strategy</h3>
+                        <p>Two clean looking dashboards with necessary information were needed for visualization.  
+
+                            For the colours, I have chosen the same colors based on the original social platforms. 
+                            This way, the audiences could identify each platform easily.  
+                                
+                            For the graphs, I have chosen bar graphs, bubbles graphs, and treemap chart. 
+                            The Y-axis in the bar graph is the count measurements to show the total amount of votes for 
+                            each item in the X-axis. The size of the bubble in bubble graph and the square in treemap chart 
+                            represents the number of votes.
+                        </p>
+                        <h3>Data Cleaning & Modeling</h3>
+                        <p>
+                            The datasets were clean and straightforward so not much cleaning needed. I did remove the 
+                            question column to focus the attention on actual numberical data. For table join, I did a union join on 
+                            all the tables from the two datasets, so Tableau knows how to display all the dimensions and measurements.
+                        </p>
+                        <h3>Dashboard</h3>
+                        <figure>
+                          <div class="col-md-6-1">
+                            <a href="https://public.tableau.com/views/Whichsocialplatformyouclickedonfirstwhenopenphone/WhichNotificationBadgeYouClickedonFirst?:display_count=y&:origin=viz_share_link">
+                              <img src="images/img1.png" alt="" class="img-fluid img-rounded">
+                            </a>
+                          </div><!-- end col -->
+                          <p>
+                            The visualization above illustrates four social platforms based on the dataset. Snapchat is the most 
+                            frequent opened for millennials based on student votes in each university. Instagram is the second most popular 
+                            clicked on when seeing notification badges. This mean they are more popular than other platforms. 
+                        </p>
+                        <a href="https://public.tableau.com/views/Whatsocialplatformhasinfluencedyouronlineshoppingmost/Whatsocialplatformhasinfluencedyouronlineshoppingmost?:embed=y&:display_count=yes&:origin=viz_share_link">
+                          <img src="images/img2.png" alt="img2" class="img-fluid img-rounded">
+                        </a>
+                        <p>
+                          The visualization above illustrates four social platforms, replacing LinkedIn with Twitter, and one “none” response. 
+                          Based on the graph, the majority of millennials that are in university get more influenced by Instagram than other social platforms. 
+                          Although, there are a lot people who do not get influenced by social media, which is represent in the black color area. 
+                        </p>
+                        </figure>
+                        <h3>Conclusion</h3>
+                          <p>
+                            Social media are on the rise and every notification badge count. Having Instagram being the most influential social media 
+                            and the second most popular social platform when clicking on notification badges, I can predict that Instagram 
+                            does have a significant impact to online shopping for millennials. Hence, Instagram is our main platform to target for millennials.
+                            Although Snapchat is the most popular platform based 
+                            on opening notification badges, it has the least influence on millennials. This may due to improper advertising feature or 
+                            lack of marketing strategy.  
+                          </p>
+                      </div><!-- end messagebox -->
+                    </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+        
+    </div><!-- end section -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                  <p class="footer-links">
+                    <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/jason-ye-a0a64471/">LinkedIn</a>
+                    <a href="https://github.com/yeja94">GitHub</a>
+                    <a href="https://public.tableau.com/profile/jason1438#!/">Tableau</a>
+                  </p>
+                  <p class="footer-company-name">All Rights Reserved. &copy; 2020 Jason Ye. Design By : 
+                    <a href="https://html.design/">html.design</a>
+                  </p>
+        </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>
